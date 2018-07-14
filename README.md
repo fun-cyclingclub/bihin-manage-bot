@@ -6,6 +6,6 @@ item_id, item, available, loan_date, account, nameをスプレッドシート1�
 
 container bound scriptでのみ動作します。Normal scriptで動作させる場合は
 
->> ss.getActiveSheet();
+>> var ss = SpreadsheetApp.getActiveSheet();
 
 を書き換えてください。
